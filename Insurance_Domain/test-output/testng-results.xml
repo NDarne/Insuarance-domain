@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[After clicking on text under health icon quote gen step1 page is opening]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58948" started-at="2023-02-27T12:14:49 IST" finished-at="2023-02-27T12:15:48 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58948" started-at="2023-02-27T12:14:49 IST" finished-at="2023-02-27T12:15:48 IST">
+      <class name="com.Health_Insurance_test.HealthSanitySuite">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.Health_Insurance_test.HealthSanitySuite@6950e31]" name="launchBrowser" is-config="true" duration-ms="17338" started-at="2023-02-27T12:14:49 IST" finished-at="2023-02-27T12:15:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="navigateTohHomePage()[pri:0, instance:com.Health_Insurance_test.HealthSanitySuite@6950e31]" name="navigateTohHomePage" is-config="true" duration-ms="5701" started-at="2023-02-27T12:15:06 IST" finished-at="2023-02-27T12:15:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTohHomePage -->
+        <test-method status="PASS" signature="toCheckElementPresent()[pri:0, instance:com.Health_Insurance_test.HealthSanitySuite@6950e31]" name="toCheckElementPresent" duration-ms="1479" started-at="2023-02-27T12:15:12 IST" finished-at="2023-02-27T12:15:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCheckElementPresent -->
+        <test-method status="PASS" signature="navigateTohHomePage()[pri:0, instance:com.Health_Insurance_test.HealthSanitySuite@6950e31]" name="navigateTohHomePage" is-config="true" duration-ms="7615" started-at="2023-02-27T12:15:14 IST" finished-at="2023-02-27T12:15:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTohHomePage -->
+        <test-method status="FAIL" signature="validateHealthIcon()[pri:0, instance:com.Health_Insurance_test.HealthSanitySuite@6950e31]" name="validateHealthIcon" duration-ms="20372" started-at="2023-02-27T12:15:21 IST" finished-at="2023-02-27T12:15:42 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[text( )='Health']"}
+  (Session info: chrome=110.0.5481.105)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [27d09d1584c5aa2ef3d7cf737cb27ae8, findElement {using=xpath, value=//p[text( )='Health']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53504}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53504/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27d09d1584c5aa2ef3d7cf737cb27ae8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[text( )='Health']"}
+  (Session info: chrome=110.0.5481.105)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [27d09d1584c5aa2ef3d7cf737cb27ae8, findElement {using=xpath, value=//p[text( )='Health']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53504}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53504/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27d09d1584c5aa2ef3d7cf737cb27ae8
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at com.pom_pages.HomePage.clcikHealthText(HomePage.java:21)
+at com.Health_Insurance_test.HealthSanitySuite.validateHealthIcon(HealthSanitySuite.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHealthIcon -->
+        <test-method status="PASS" signature="navigateTohHomePage()[pri:0, instance:com.Health_Insurance_test.HealthSanitySuite@6950e31]" name="navigateTohHomePage" is-config="true" duration-ms="2780" started-at="2023-02-27T12:15:42 IST" finished-at="2023-02-27T12:15:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateTohHomePage -->
+        <test-method status="PASS" signature="validateTextUnderHealthIcon()[pri:0, instance:com.Health_Insurance_test.HealthSanitySuite@6950e31]" name="validateTextUnderHealthIcon" duration-ms="3455" started-at="2023-02-27T12:15:44 IST" finished-at="2023-02-27T12:15:48 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[After clicking on text under health icon quote gen step1 page is opening]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateTextUnderHealthIcon -->
+      </class> <!-- com.Health_Insurance_test.HealthSanitySuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
